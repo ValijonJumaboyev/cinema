@@ -270,14 +270,20 @@ nav {
     transform: scale(0);
 } */
 
+.film-time {
+    transition: .5s ease-in-out;
+}
+
 .filmcart:hover .film-time {
     transform: scale(0);
-    transition: .1s;
+}
+
+.film-icon {
+    transition: .5s ease-in-out;
 }
 
 .filmcart:hover .film-icon {
     transform: scale(2) translateY(15px);
-    transition: .5s ease-in-out;
 }
 
 /* video start */
